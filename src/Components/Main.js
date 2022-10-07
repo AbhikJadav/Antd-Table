@@ -8,7 +8,7 @@ const Main = () => {
         
         <div className="main-wrapper">
           <DataTable/>
-        </div
+        </div>
 
     </div>
   );

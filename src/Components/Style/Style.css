@@ -1,0 +1,49 @@
+.main-wrapper{
+    /*border:2px solid black;*/
+    height: 100vh;
+    /*background-color: #c2c9cb4a;*/
+    /*width: 80%;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-content: center;*/
+}
+.main{
+    /*border:1px solid #b49999;*/
+}
+.content
+{
+    border: 2px solid black;
+}
+.header{
+    margin-top: 10%;
+    width:89.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search{
+    width:10%;
+    animation-name: mymove;
+    animation-duration: 5s;
+}
+.addButton{
+    width:15%
+}
+.formLabel{
+    width:100%;
+
+}
+.displayData{
+
+
+}
+.ant-table-wrapper{
+    width: 70%;
+    margin-left: 17%;
+    box-shadow: rgb(136 165 191 / 48%) -3px 0px 20px 0px, rgb(255 255 255 / 80%) -6px -2px 16px 0px;
+
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 30px;}
+}

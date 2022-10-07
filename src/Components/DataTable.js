@@ -60,7 +60,6 @@ const DataTable = () => {
   const searchData=(e)=>{
     setValue(e.target.value)
     const filterData=selector.filter((element)=>
-      // console.log("element:",element)
           element.data.name.includes(e.target.value)
 
     )
@@ -68,7 +67,6 @@ const DataTable = () => {
     setDataSource(filterData)
   }
   const [recordData,setRecordData]=useState([])
-  // console.log("recordData:",recordData)
   const menu =()=> (
     <Menu
       items={[
